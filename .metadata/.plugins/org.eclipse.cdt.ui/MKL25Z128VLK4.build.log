@@ -1,0 +1,119 @@
+22:25:23 **** Build of configuration Debug for project MKL25Z128VLK4 ****
+make -r -j2 all 
+Building file: ../startup/startup_mkl25z4.cpp
+Building file: ../utilities/fsl_debug_console.c
+Invoking: MCU C Compiler
+Invoking: MCU C++ Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../utilities/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"utilities/fsl_debug_console.d" -MT"utilities/fsl_debug_console.o" -MT"utilities/fsl_debug_console.d" -o "utilities/fsl_debug_console.o" "../utilities/fsl_debug_console.c"
+arm-none-eabi-c++ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -D__NEWLIB__ -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fno-rtti -fno-exceptions -fmerge-constants -fmacro-prefix-map="../startup/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"startup/startup_mkl25z4.d" -MT"startup/startup_mkl25z4.o" -MT"startup/startup_mkl25z4.d" -o "startup/startup_mkl25z4.o" "../startup/startup_mkl25z4.cpp"
+Finished building: ../startup/startup_mkl25z4.cpp
+ 
+Building file: ../source/MKL25Z128VLK4.cpp
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -D__NEWLIB__ -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fno-rtti -fno-exceptions -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"source/MKL25Z128VLK4.d" -MT"source/MKL25Z128VLK4.o" -MT"source/MKL25Z128VLK4.d" -o "source/MKL25Z128VLK4.o" "../source/MKL25Z128VLK4.cpp"
+Finished building: ../utilities/fsl_debug_console.c
+ 
+Building file: ../source/cpp_config.cpp
+Finished building: ../source/MKL25Z128VLK4.cpp
+ 
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -D__NEWLIB__ -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -ffunction-sections -fdata-sections -ffreestanding -fno-builtin -fno-rtti -fno-exceptions -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"source/cpp_config.d" -MT"source/cpp_config.o" -MT"source/cpp_config.d" -o "source/cpp_config.o" "../source/cpp_config.cpp"
+Building file: ../source/mtb.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"source/mtb.d" -MT"source/mtb.o" -MT"source/mtb.d" -o "source/mtb.o" "../source/mtb.c"
+Finished building: ../source/mtb.c
+Finished building: ../source/cpp_config.cpp
+ 
+ 
+Building file: ../source/semihost_hardfault.c
+Building file: ../drivers/fsl_clock.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../source/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"source/semihost_hardfault.d" -MT"source/semihost_hardfault.o" -MT"source/semihost_hardfault.d" -o "source/semihost_hardfault.o" "../source/semihost_hardfault.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../drivers/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"drivers/fsl_clock.d" -MT"drivers/fsl_clock.o" -MT"drivers/fsl_clock.d" -o "drivers/fsl_clock.o" "../drivers/fsl_clock.c"
+Finished building: ../source/semihost_hardfault.c
+ 
+Building file: ../drivers/fsl_common.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../drivers/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"drivers/fsl_common.d" -MT"drivers/fsl_common.o" -MT"drivers/fsl_common.d" -o "drivers/fsl_common.o" "../drivers/fsl_common.c"
+Finished building: ../drivers/fsl_clock.c
+ 
+Building file: ../drivers/fsl_dma.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../drivers/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"drivers/fsl_dma.d" -MT"drivers/fsl_dma.o" -MT"drivers/fsl_dma.d" -o "drivers/fsl_dma.o" "../drivers/fsl_dma.c"
+Finished building: ../drivers/fsl_common.c
+ 
+Building file: ../drivers/fsl_dmamux.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../drivers/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"drivers/fsl_dmamux.d" -MT"drivers/fsl_dmamux.o" -MT"drivers/fsl_dmamux.d" -o "drivers/fsl_dmamux.o" "../drivers/fsl_dmamux.c"
+Finished building: ../drivers/fsl_dma.c
+ 
+Building file: ../drivers/fsl_lpsci.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../drivers/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"drivers/fsl_lpsci.d" -MT"drivers/fsl_lpsci.o" -MT"drivers/fsl_lpsci.d" -o "drivers/fsl_lpsci.o" "../drivers/fsl_lpsci.c"
+Finished building: ../drivers/fsl_dmamux.c
+ 
+Building file: ../drivers/fsl_lpsci_dma.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../drivers/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"drivers/fsl_lpsci_dma.d" -MT"drivers/fsl_lpsci_dma.o" -MT"drivers/fsl_lpsci_dma.d" -o "drivers/fsl_lpsci_dma.o" "../drivers/fsl_lpsci_dma.c"
+Finished building: ../drivers/fsl_lpsci.c
+ 
+Building file: ../drivers/fsl_rtc.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../drivers/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"drivers/fsl_rtc.d" -MT"drivers/fsl_rtc.o" -MT"drivers/fsl_rtc.d" -o "drivers/fsl_rtc.o" "../drivers/fsl_rtc.c"
+Finished building: ../drivers/fsl_lpsci_dma.c
+ 
+Building file: ../drivers/fsl_uart.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../drivers/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"drivers/fsl_uart.d" -MT"drivers/fsl_uart.o" -MT"drivers/fsl_uart.d" -o "drivers/fsl_uart.o" "../drivers/fsl_uart.c"
+Finished building: ../drivers/fsl_rtc.c
+ 
+Building file: ../drivers/fsl_uart_dma.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../drivers/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"drivers/fsl_uart_dma.d" -MT"drivers/fsl_uart_dma.o" -MT"drivers/fsl_uart_dma.d" -o "drivers/fsl_uart_dma.o" "../drivers/fsl_uart_dma.c"
+Finished building: ../drivers/fsl_uart.c
+ 
+Building file: ../board/board.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../board/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"board/board.d" -MT"board/board.o" -MT"board/board.d" -o "board/board.o" "../board/board.c"
+Finished building: ../drivers/fsl_uart_dma.c
+ 
+Finished building: ../board/board.c
+Building file: ../board/clock_config.c
+ 
+Invoking: MCU C Compiler
+Building file: ../board/peripherals.c
+arm-none-eabi-gcc -D__NEWLIB__ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../board/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"board/clock_config.d" -MT"board/clock_config.o" -MT"board/clock_config.d" -o "board/clock_config.o" "../board/clock_config.c"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../board/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"board/peripherals.d" -MT"board/peripherals.o" -MT"board/peripherals.d" -o "board/peripherals.o" "../board/peripherals.c"
+Finished building: ../board/peripherals.c
+ 
+Building file: ../board/pin_mux.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../board/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"board/pin_mux.d" -MT"board/pin_mux.o" -MT"board/pin_mux.d" -o "board/pin_mux.o" "../board/pin_mux.c"
+Finished building: ../board/clock_config.c
+ 
+Building file: ../CMSIS/system_MKL25Z4.c
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -D__NEWLIB__ -DCPU_MKL25Z128VLK4 -DCPU_MKL25Z128VLK4_cm0plus -DSDK_OS_BAREMETAL -DFSL_RTOS_BM -DSDK_DEBUGCONSOLE=0 -D__MCUXPRESSO -D__USE_CMSIS -DDEBUG -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\board" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\source" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\drivers" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\CMSIS" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\utilities" -I"D:\MCUXpressoWorkSpace\MKL25Z128VLK4\startup" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../CMSIS/"=. -mcpu=cortex-m0plus -mthumb -D__NEWLIB__ -fstack-usage -MMD -MP -MF"CMSIS/system_MKL25Z4.d" -MT"CMSIS/system_MKL25Z4.o" -MT"CMSIS/system_MKL25Z4.d" -o "CMSIS/system_MKL25Z4.o" "../CMSIS/system_MKL25Z4.c"
+Finished building: ../board/pin_mux.c
+ 
+Finished building: ../CMSIS/system_MKL25Z4.c
+ 
+Building target: MKL25Z128VLK4.axf
+Invoking: MCU C++ Linker
+arm-none-eabi-c++ -nostdlib -Xlinker -Map="MKL25Z128VLK4.map" -Xlinker --gc-sections -Xlinker -print-memory-usage -Xlinker --sort-section=alignment -Xlinker --cref -mcpu=cortex-m0plus -mthumb -T MKL25Z128VLK4_Debug.ld -o "MKL25Z128VLK4.axf"  ./utilities/fsl_debug_console.o  ./startup/startup_mkl25z4.o  ./source/MKL25Z128VLK4.o ./source/cpp_config.o ./source/mtb.o ./source/semihost_hardfault.o  ./drivers/fsl_clock.o ./drivers/fsl_common.o ./drivers/fsl_dma.o ./drivers/fsl_dmamux.o ./drivers/fsl_lpsci.o ./drivers/fsl_lpsci_dma.o ./drivers/fsl_rtc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_dma.o  ./board/board.o ./board/clock_config.o ./board/peripherals.o ./board/pin_mux.o  ./CMSIS/system_MKL25Z4.o   
+Memory region         Used Size  Region Size  %age Used
+   PROGRAM_FLASH:          0 GB       128 KB      0.00%
+            SRAM:       10372 B        16 KB     63.31%
+Finished building target: MKL25Z128VLK4.axf
+ 
+make --no-print-directory post-build
+Performing post-build steps
+arm-none-eabi-size "MKL25Z128VLK4.axf"; # arm-none-eabi-objcopy -v -O binary "MKL25Z128VLK4.axf" "MKL25Z128VLK4.bin" ; # checksum -p MKL25Z128xxx4 -d "MKL25Z128VLK4.bin";
+   text	   data	    bss	    dec	    hex	filename
+   7832	    104	   2332	  10268	   281c	MKL25Z128VLK4.axf
+ 
+
+22:25:31 Build Finished. 0 errors, 0 warnings. (took 7s.426ms)
+
